@@ -1,8 +1,6 @@
-#include <stdio.h>
-
-void file_test(void);
+void read(void);
 
 int main() {
-file_test();
-return 0;
+    read();
+    return 0;
 }

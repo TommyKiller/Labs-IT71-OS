@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int file_test() {
+int read() {
    FILE *fp;
    FILE *f;
 

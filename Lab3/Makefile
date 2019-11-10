@@ -7,4 +7,4 @@ libgroup.so: reader.o
 reader.o: reader.c
 	gcc -c reader.c 
 clean:        
-	rm -f * .o * .so brigade
+	rm -f *.o *.so brigade
