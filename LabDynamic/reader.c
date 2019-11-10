@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int read() {
+int read(const char* input_file, const char* output_file) {
    FILE *fp;
    FILE *f;
 
-   fp = fopen("test.txt", "w+");
-   f = fopen("group.txt","r");
+   fp = fopen(output_file, "w+");
+   f = fopen(input_file, "r");
    int counter = 1;
    char val[80];
    while(!feof(f))
